@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\bin\Debug\NetFlask.Models.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\bin\Debug\NetFlask.Models.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\obj\Debug\NetFlask.Models.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\obj\Debug\NetFlask.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\obj\Debug\NetFlask.Models.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Models\obj\Debug\NetFlask.Models.pdb

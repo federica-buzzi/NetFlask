@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\bin\Debug\NetFlask.DB.dacpac
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\bin\Debug\NetFlask.DB.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\bin\Debug\NetFlask.DB.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\obj\Debug\NetFlask.DB.sqlprojAssemblyReference.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\obj\Debug\NetFlask.DB.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.DB\obj\Debug\NetFlask.DB.pdb

@@ -1,0 +1,41 @@
+﻿@model Netflask_again.Models.FeaturedTodayElement
+@{
+    string Type = ViewData["Type"]?.ToString();
+}
+@if (Type != "AlsoLike")
+{
+    if (Model.ElementCaption != "")
+    {
+        <ul>
+            <li class="ent">
+                <a href="single.html"><img src="@Model.Movie.Image" alt="" /></a>
+            </li>
+            <li>
+                <a href="single.html">@Model.ElementCaption</a>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+    }
+    else
+    {
+        <li>
+            <a href="single.html"><img src="@Model.Movie.Image" alt="" /></a>
+            <p>@Model.ElementCaption</p>
+        </li>
+    }
+}
+else
+{
+    <div class="might-grid">
+        <div class="grid-might">
+            <a href="single.html"><img src="@Model.Movie.Image" class="img-responsive" alt=""> </a>
+        </div>
+        <div class="might-top">
+            <p>@Model.ElementCaption</p>
+            <a href="single.html">Lorem Ipsum <i> </i></a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+}
+
+

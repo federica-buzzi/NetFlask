@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\bin\Debug\NetFlask.Mappers.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\bin\Debug\NetFlask.Mappers.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\obj\Debug\NetFlask.Mappers.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\obj\Debug\NetFlask.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\obj\Debug\NetFlask.Mappers.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Mappers\obj\Debug\NetFlask.Mappers.pdb

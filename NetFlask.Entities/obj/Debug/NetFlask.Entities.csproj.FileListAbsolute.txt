@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\bin\Debug\NetFlask.Entities.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\bin\Debug\NetFlask.Entities.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\obj\Debug\NetFlask.Entities.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\obj\Debug\NetFlask.Entities.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\obj\Debug\NetFlask.Entities.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Entities\obj\Debug\NetFlask.Entities.pdb

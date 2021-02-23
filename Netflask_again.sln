@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflask_again", "Netflask_again\Netflask_again.csproj", "{7CD69F84-B777-40EF-BADA-FDA993452B09}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NetFlask.DB", "NetFlask.DB\NetFlask.DB.sqlproj", "{A45E3C14-4F99-48E5-B301-82EBC107F750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.DAL", "NetFlask.DAL\NetFlask.DAL.csproj", "{14DDBD50-F511-4675-BB0D-33BA58BE0D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.Repositories", "NetFlask.Repositories\NetFlask.Repositories.csproj", "{9D5E4A65-E7C6-4CBB-B6C4-FA368DD212F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.Entities", "NetFlask.Entities\NetFlask.Entities.csproj", "{499BDD1D-9BF5-40C2-84E2-BFA981CBEFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.Mappers", "NetFlask.Mappers\NetFlask.Mappers.csproj", "{B4201C6F-B763-4583-8839-E4AD0B608248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.Models", "NetFlask.Models\NetFlask.Models.csproj", "{3317D896-51A2-42E1-A154-C155FF1F0F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD69F84-B777-40EF-BADA-FDA993452B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD69F84-B777-40EF-BADA-FDA993452B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD69F84-B777-40EF-BADA-FDA993452B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD69F84-B777-40EF-BADA-FDA993452B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45E3C14-4F99-48E5-B301-82EBC107F750}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{14DDBD50-F511-4675-BB0D-33BA58BE0D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DDBD50-F511-4675-BB0D-33BA58BE0D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DDBD50-F511-4675-BB0D-33BA58BE0D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DDBD50-F511-4675-BB0D-33BA58BE0D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5E4A65-E7C6-4CBB-B6C4-FA368DD212F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5E4A65-E7C6-4CBB-B6C4-FA368DD212F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5E4A65-E7C6-4CBB-B6C4-FA368DD212F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5E4A65-E7C6-4CBB-B6C4-FA368DD212F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499BDD1D-9BF5-40C2-84E2-BFA981CBEFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499BDD1D-9BF5-40C2-84E2-BFA981CBEFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499BDD1D-9BF5-40C2-84E2-BFA981CBEFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499BDD1D-9BF5-40C2-84E2-BFA981CBEFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4201C6F-B763-4583-8839-E4AD0B608248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4201C6F-B763-4583-8839-E4AD0B608248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4201C6F-B763-4583-8839-E4AD0B608248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4201C6F-B763-4583-8839-E4AD0B608248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3317D896-51A2-42E1-A154-C155FF1F0F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3317D896-51A2-42E1-A154-C155FF1F0F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3317D896-51A2-42E1-A154-C155FF1F0F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3317D896-51A2-42E1-A154-C155FF1F0F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53F40CEF-847E-4E19-BBA8-7259FD0C9C3D}
+	EndGlobalSection
+EndGlobal

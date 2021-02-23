@@ -1,0 +1,13 @@
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Repositories.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Repositories.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\obj\Debug\NetFlask.Repositories.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\obj\Debug\NetFlask.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\obj\Debug\NetFlask.Repositories.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\obj\Debug\NetFlask.Repositories.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.DAL.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Entities.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.DAL.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Entities.pdb
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\obj\Debug\NetFlask.Repositories.csproj.CopyComplete
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Models.dll
+C:\Users\User\source\repos\Netflask_again\NetFlask.Repositories\bin\Debug\NetFlask.Models.pdb

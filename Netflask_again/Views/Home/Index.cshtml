@@ -1,0 +1,78 @@
+﻿
+
+@{
+    ViewBag.Title = "Home";
+}
+
+@model Netflask_again.Models.HomeViewModel
+
+@section BiblioScripts{
+    @Scripts.Render("~/bundles/JqueryFlexisel")
+}
+
+
+@section MoreCss{
+    <style>
+        .header {
+            background: url('@Model.HeaderMovie.BigPicture') no-repeat 0px 0px;
+        }
+    </style>
+}
+
+<div class="header">
+    <div class="top-header">
+        <div class="logo">
+            <a href="index.html"><img src="/images/logo.png" alt="" /></a>
+            <p>@Model.Title</p>
+        </div>
+     @{ 
+         Html.RenderPartial("~/Views/Shared/_formSearch.cshtml");
+
+     }
+        <div class="clearfix"></div>
+    </div>
+    <div class="header-info">
+        <h1>@Model.HeaderMovie.Title  </h1>
+        <p class="age"><a href="#">@Model.HeaderMovie.Age</a>@Model.HeaderMovie.Director </p>
+        <p class="review">Rating	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;  @Model.HeaderMovie.Rating</p>
+        <p class="review reviewgo">Genre	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; @Model.HeaderMovie.Genre </p>
+        <p class="review">Release &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; @Model.HeaderMovie.Release.Day @Model.HeaderMovie.Release.ToString("MMMM") @Model.HeaderMovie.Release.Year </p>
+        <p class="special">@Model.HeaderMovie.Description  </p>
+        <a class="video" href="@Model.HeaderMovie.VideoLink "><i class="video1"></i>WATCH TRAILER</a>
+        <a class="book" href="#"><i class="book1"></i>BOOK TICKET</a>
+    </div>
+</div>
+@{
+    Html.RenderPartial("~/Views/Shared/_slider.cshtml", Model.Slider1);
+}
+
+<div class="video">
+    <iframe src="@Model.VideoHome" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="news">
+    <div class="col-md-6 news-left-grid">
+        <h3>Don’t be late,</h3>
+        <h2>Book your ticket now!</h2>
+        <h4>Easy, simple & fast.</h4>
+        <a href="#"><i class="book"></i>BOOK TICKET</a>
+        <p>Get Discount up to <strong>10%</strong> if you are a member!</p>
+    </div>
+    <div class="col-md-6 news-right-grid">
+        <h3>News</h3>
+        <div class="news-grid">
+
+            @foreach (Netflask_again.Models.News item in Model.News)
+            {
+                <h5>@item.Title</h5>
+                <label>@item.TheDate.ToString("MMM d yyyy")</label>
+                <p>@item.Description</p>
+            }
+        </div>
+        <a class="more" href="#">MORE</a>
+    </div>
+    <div class="clearfix"></div>
+</div>
+@{
+    Html.RenderPartial("~/Views/Shared/_slider.cshtml", Model.Slider2);
+}
+

@@ -1,0 +1,84 @@
+01/02/2021 23:15:02	This log contains information about the import schema operation into project 'NetFlask.DB' on computer 'DESKTOP-5E3LUTA' by user 'User'.
+01/02/2021 23:15:03	Import of database schema has started.
+01/02/2021 23:15:41	Gathering database credentials
+01/02/2021 23:15:41	Gathering database options
+01/02/2021 23:15:41	Gathering users
+01/02/2021 23:15:41	Gathering roles
+01/02/2021 23:15:41	Gathering application roles
+01/02/2021 23:15:41	Gathering role memberships
+01/02/2021 23:15:41	Gathering filegroups
+01/02/2021 23:15:41	Gathering full-text catalogs
+01/02/2021 23:15:41	Gathering assemblies
+01/02/2021 23:15:41	Gathering certificates
+01/02/2021 23:15:42	Gathering asymmetric keys
+01/02/2021 23:15:42	Gathering symmetric keys
+01/02/2021 23:15:42	Gathering encrypted symmetric keys
+01/02/2021 23:15:42	Gathering schemas
+01/02/2021 23:15:42	Gathering XML schema collections
+01/02/2021 23:15:42	Gathering user-defined data types
+01/02/2021 23:15:42	Gathering user-defined types
+01/02/2021 23:15:42	Gathering table types
+01/02/2021 23:15:42	Gathering unique keys for table types
+01/02/2021 23:15:42	Gathering primary keys for table types
+01/02/2021 23:15:42	Gathering indexes for table types
+01/02/2021 23:15:42	Gathering check constraints for table types
+01/02/2021 23:15:42	Gathering default constraints for table types
+01/02/2021 23:15:42	Gathering partition functions
+01/02/2021 23:15:42	Gathering partition schemes
+01/02/2021 23:16:37	Gathering functions
+01/02/2021 23:16:37	Gathering encrypted functions
+01/02/2021 23:16:37	Gathering aggregates
+01/02/2021 23:16:37	Gathering procedures
+01/02/2021 23:17:28	Gathering encrypted procedures
+01/02/2021 23:17:28	Gathering tables
+01/02/2021 23:17:28	Gathering primary keys
+01/02/2021 23:17:28	Gathering unique constraints
+01/02/2021 23:17:41	Gathering foreign keys
+01/02/2021 23:17:41	Gathering default constraints
+01/02/2021 23:17:41	Gathering check constraints
+01/02/2021 23:17:41	Gathering views
+01/02/2021 23:18:06	Gathering encrypted views
+01/02/2021 23:18:06	Gathering indexes
+01/02/2021 23:18:06	Gathering statistics
+01/02/2021 23:18:06	Gathering full-text index stoplists
+01/02/2021 23:18:06	Gathering search property lists
+01/02/2021 23:18:06	Gathering search properties
+01/02/2021 23:18:06	Gathering full-text indexes
+01/02/2021 23:18:07	Gathering column store indexes
+01/02/2021 23:18:33	Gathering spatial indexes
+01/02/2021 23:18:33	Gathering XML indexes
+01/02/2021 23:18:33	Gathering Selective XML indexes
+01/02/2021 23:18:33	Gathering encrypted triggers
+01/02/2021 23:18:33	Gathering triggers
+01/02/2021 23:18:33	Gathering encrypted and clr ddl triggers
+01/02/2021 23:18:33	Gathering ddl triggers
+01/02/2021 23:18:33	Gathering synonyms
+01/02/2021 23:18:33	Gathering defaults
+01/02/2021 23:18:36	Gathering data constraint uddt bindings
+01/02/2021 23:18:36	Gathering rules
+01/02/2021 23:18:36	Gathering data constraint uddt bindings
+01/02/2021 23:18:36	Gathering message types
+01/02/2021 23:18:36	Gathering queues
+01/02/2021 23:18:36	Gathering contracts
+01/02/2021 23:18:36	Gathering services
+01/02/2021 23:18:36	Gathering event notifications
+01/02/2021 23:18:36	Gathering remote service bindings
+01/02/2021 23:18:36	Gathering broker priorities
+01/02/2021 23:18:36	Gathering signatures
+01/02/2021 23:18:36	Gathering data compression options
+01/02/2021 23:18:36	Gathering sequence types
+01/02/2021 23:18:36	Gathering security policies
+01/02/2021 23:18:36	Gather column encryption keys
+01/02/2021 23:18:36	Gathering column master keys
+01/02/2021 23:18:36	Gathering external data sources
+01/02/2021 23:18:36	Gathering external file formats
+01/02/2021 23:18:36	Gathering external tables
+01/02/2021 23:18:36	Gathering extended properties
+01/02/2021 23:18:37	Gathering credentials
+01/02/2021 23:18:37	Gathering logins
+01/02/2021 23:18:37	Gathering server audits
+01/02/2021 23:18:38	Scanning project for duplicate elements
+01/02/2021 23:18:39	Finished duplicate element processing
+01/02/2021 23:18:40	Finished importing database.
+01/02/2021 23:18:40	A summary of the import was saved to the following location: C:\Users\User\source\repos\Netflask_again\NetFlask.DB\Import Schema Logs\NetFlask.DB_20210201101502.log
+01/02/2021 23:18:40	Click Finish to continue...

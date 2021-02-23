@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Reviews";
+}
+
+@model Netflask_again.Models.ReviewsViewModel
+
+@section BiblioScripts {
+    @Scripts.Render("~/bundles/JqueryFlexisel")
+}
+
+
+
+<div class="review-content">
+    <div class="top-header span_top">
+        <div class="logo">
+            <a href="index.html"><img img src="/images/logo.png" alt="" /></a>
+            <p>Movie Theater</p>
+        </div>
+        @{
+            Html.RenderPartial("~/Views/Shared/_formSearch.cshtml");
+
+        }
+        <div class="clearfix"></div>
+    </div>
+    <div class="reviews-section">
+        <h3 class="head">Movie Reviews</h3>
+        <div class="col-md-9 reviews-grids">
+            
+                @foreach (var item in Model.ReviewElements)
+                {
+                    Html.RenderPartial("~/Views/Shared/_ReviewCard.cshtml", item);
+                }
+        </div>
+    </div>
+
+    <div class="col-md-3 side-bar">
+
+        <div class="featured">
+            <h3>Featured Today in Movie Reviews</h3>
+            <ul>
+                @foreach (Netflask_again.Models.FeaturedTodayElement item in Model.FeaturedElements)
+                {
+                    Html.RenderPartial("~/Views/Shared/_FeaturedCard.cshtml", item);
+                }
+                <div class="clearfix"></div>
+            </ul>
+        </div>
+
+        <div class="entertainment">
+            <h3>Featured Today in Entertainment</h3>
+            @foreach (Netflask_again.Models.FeaturedTodayElement item in Model.FeaturedEntertainement)
+            {
+                Html.RenderPartial("~/Views/Shared/_FeaturedCard.cshtml", item);
+            }
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="might">
+            <h4>You might also like</h4>
+
+            @foreach (Netflask_again.Models.FeaturedTodayElement item in Model.MightAlsoLike)
+            {
+                Html.RenderPartial("~/Views/Shared/_FeaturedCard.cshtml", item, new ViewDataDictionary { {"Type", "AlsoLike" } });
+            }
+        </div>
+        <!---->
+        <div class="grid-top">
+            <h4>Archives</h4>
+            <ul>
+                <li><a href="single.html">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                <li><a href="single.html">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</a></li>
+                <li><a href="single.html">When an unknown printer took a galley of type and scrambled it to make a type specimen book. </a> </li>
+                <li><a href="single.html">It has survived not only five centuries, but also the leap into electronic typesetting</a> </li>
+                <li><a href="single.html">Remaining essentially unchanged. It was popularised in the 1960s with the release of </a> </li>
+                <li><a href="single.html">Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing </a> </li>
+                <li><a href="single.html">Software like Aldus PageMaker including versionsof Lorem Ipsum.</a> </li>
+            </ul>
+        </div>
+        <!---->
+
+    </div>
+    <div class="clearfix"></div>
+    @{
+        Html.RenderPartial("~/Views/Shared/_slider.cshtml", Model.Slider3);
+    }
+</div>
+
+
+
